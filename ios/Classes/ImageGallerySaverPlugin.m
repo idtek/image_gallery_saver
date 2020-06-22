@@ -1,5 +1,5 @@
 #import "ImageGallerySaverPlugin.h"
-
+#import <Photos/Photos.h>
 @implementation ImageGallerySaverPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
 	FlutterMethodChannel* channel = [FlutterMethodChannel
